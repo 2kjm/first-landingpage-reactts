@@ -1,9 +1,8 @@
-import React from "react";
 
 function Footer() {
   return (
     <div className="text-center text-slate-500 py-5 opacity-70">
-      <div className="flex items-center justify-center pb-5">
+      {/* <div className="flex items-center justify-center pb-5">
         <a href="https://google.com" className="text-blue hover:rotate-45">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -51,8 +50,8 @@ function Footer() {
             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
           </svg>
         </a>
-      </div>
-      Bootstraped by vite, 2022
+      </div> */}
+      <a href="http://www.glowing.io"  target="_blank" rel="noopener noreferrer" className="ml-5 text-blue hover:rotate-45">glowing.io</a>
     </div>
   );
 }
